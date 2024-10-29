@@ -26,7 +26,7 @@ function Search() {
             item.price >= (newValues[0] - 10) 
         );
         setFilteredData(filtered); 
-        
+
     };
 
 
@@ -75,6 +75,7 @@ function Search() {
                                         }}
                                     >
                                         {children}
+                                        
                                     </div>
                                 )}
                                 renderThumb={({ props }) => (
