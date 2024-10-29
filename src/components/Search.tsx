@@ -25,7 +25,8 @@ function Search() {
         const filtered = data.filter(item => 
             item.price >= (newValues[0] - 10) 
         );
-        setFilteredData(filtered);
+        setFilteredData(filtered); 
+        
     };
 
 
