@@ -199,3 +199,12 @@ body {
   color: #fff;
   border-radius: 8px;
 }
+
+
+
+@media (max-width:470px) {
+  .box_popup-3  {
+    top: 20%;
+    left: 50%;
+  }
+}
